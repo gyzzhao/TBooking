@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using TBooking.Models;
 using System.Text.Json;
 using System.Net.Http;
-trial
+
 
 namespace TBooking.Controllers
 {
@@ -32,7 +32,7 @@ namespace TBooking.Controllers
         public TBookingItemsController(TBookingContext context)
         {
             _context = context;
-        }
+        }gi
 
         // GET: api/TBookingItems
         [HttpGet]
